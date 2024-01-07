@@ -3,6 +3,9 @@
  * Do not include SCSS code in this file.
  */
 
+@tailwind base;
+@tailwind components;
+
 /**
  * Import variables
  */
@@ -15,6 +18,8 @@
  * see commented examples below
  */
 
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;500&family=Poppins:ital,wght@0,100;0,200;1,500&display=swap');
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 
@@ -28,3 +33,5 @@
 /**
  * Do NOT include anything else in this file!
  */
+
+@tailwind utilities;
