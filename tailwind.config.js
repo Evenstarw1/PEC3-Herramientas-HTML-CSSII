@@ -28,6 +28,16 @@ module.exports = {
         'sm': '250px',
         'md': '720px',
         'lg': '950px'
+      },
+      gridTemplateColumns: {
+        'columnsLarge': '1fr 1fr 0.6fr 1.4fr',
+        'columnsMedium': '1fr 1fr 1fr',
+        'columnsSmall': '1fr'
+      },
+      gridTemplateRows: {
+        'rowsLarge': '0.6fr 1.6fr 0.8fr',
+        'rowsMedium': '0.5fr 1.4fr 1.1fr',
+        'rowsSmall': '0.3fr 0.7fr 1.4fr 0.6fr'
       }
     },
   },
