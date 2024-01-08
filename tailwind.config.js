@@ -25,12 +25,11 @@ module.exports = {
         xxxl: '4rem'
       },
       screens: {
-        'sm': '480px',
-        'md': '810px',
-        'lg': '1440px'
+        'sm': '250px',
+        'md': '720px',
+        'lg': '950px'
       }
     },
   },
   plugins: [],
 }
-
